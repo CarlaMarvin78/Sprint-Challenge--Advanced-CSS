@@ -62,10 +62,16 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-
+      @media @mobile{
+        flex-flow: column-reverse wrap;
+      }
     
     .walk-text {
       width: 50%;
+      @media @mobile {
+        width: 100%;
+        
+      }
     }
      
     h3 {
@@ -88,20 +94,26 @@
       }
         button{
           .button-parms(); 
+          @media @mobile {
+            width: 100%;
+          }
+         
+      
       }
         
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+       @media @mobile {
+          width: 100%;
+          margin: 0px;
+          padding-bottom: 20px;
+       }
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
-      
-        @media @mobile {
-          width: 100%;
-        }
+    
       }
     }     
   }
