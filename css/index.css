@@ -163,7 +163,20 @@ p {
 .heading {
   display: flex;
   justify-content: center;
-  font-size: 500%;
+  font-size: 376%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  padding-bottom: 15px;
+}
+.navBar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
 }
 footer {
   color: #22283B;
