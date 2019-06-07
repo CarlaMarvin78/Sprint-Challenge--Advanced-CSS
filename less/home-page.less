@@ -4,6 +4,11 @@
     
 
   .intro {
+    @media @mobile {
+            width:100%;
+      border: 2px solid red;
+      
+    }
 
     h2 {
       padding: 15px;
@@ -49,6 +54,10 @@
 
     .walk-text {
       width: 50%;
+    }
+      @media @mobile {
+        width: 100%;
+        padding: 0;
 
       h3 {
         margin-bottom: 10px;
@@ -84,7 +93,10 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
-  }
-}// home
+  // home
