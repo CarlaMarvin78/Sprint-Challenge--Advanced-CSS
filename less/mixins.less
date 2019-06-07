@@ -1,11 +1,22 @@
 // Mixins Here
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+  }
+.color(@color, @bg-color) {
+    color: @color;
+    background-color: @bg-color;
+}
 .button-parms {
-background-color: @btn-bg-color;
-color:white;
+.color(white, @btn-bg-color);
 font-size: 1.8rem;
 padding: 10px 25px;
-border-radius: 5px;
+.border-radius(5px);
 }
+
+
+
 
 
 

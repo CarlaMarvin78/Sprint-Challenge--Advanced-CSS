@@ -29,7 +29,7 @@
     img {
       width: 28%;
       margin: 20px 2.5%;
-      border-radius: 20px;
+      .border-radius(20px);
       height: 100%;
     } 
     @media @mobile{
@@ -86,9 +86,7 @@
           a{           
             text-decoration:none;
             :hover {
-              background-color: white;
-              color: @btn-bg-color;
-
+              .color(@btn-bg-color,white);
             }
           }
       }
@@ -112,7 +110,7 @@
       img {
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        .border-radius(10px);
     
       }
     }     

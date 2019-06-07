@@ -1,8 +1,10 @@
 .button-parms {
-  background-color: #22283A;
   color: white;
+  background-color: #22283A;
   font-size: 1.8rem;
   padding: 10px 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -187,8 +189,8 @@ p {
 }
 .navBar a:hover {
   border: 1px solid black;
-  background-color: blue;
   color: white;
+  background-color: blue;
   font-size: 1.25em;
   padding: 5px;
   margin-bottom: 10px;
@@ -208,6 +210,8 @@ footer {
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -233,6 +237,8 @@ footer {
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   height: 100%;
 }
@@ -285,14 +291,16 @@ footer {
   text-decoration: none;
 }
 .home .walk .btn a :hover {
-  background-color: white;
   color: #22283A;
+  background-color: white;
 }
 .home .walk button {
-  background-color: #22283A;
   color: white;
+  background-color: #22283A;
   font-size: 1.8rem;
   padding: 10px 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 @media (max-width: 500px) {
@@ -314,5 +322,7 @@ footer {
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
